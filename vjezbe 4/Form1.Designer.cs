@@ -35,7 +35,6 @@
             this.txtPrezime = new System.Windows.Forms.TextBox();
             this.btnSpremi = new System.Windows.Forms.Button();
             this.btnPrikazi = new System.Windows.Forms.Button();
-            this.lstStudenti = new System.Windows.Forms.ListBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -96,21 +95,13 @@
             // 
             // btnPrikazi
             // 
-            this.btnPrikazi.Location = new System.Drawing.Point(298, 254);
+            this.btnPrikazi.Location = new System.Drawing.Point(352, 254);
             this.btnPrikazi.Name = "btnPrikazi";
             this.btnPrikazi.Size = new System.Drawing.Size(75, 23);
             this.btnPrikazi.TabIndex = 7;
-            this.btnPrikazi.Text = "Prikazi";
+            this.btnPrikazi.Text = "Zatvori";
             this.btnPrikazi.UseVisualStyleBackColor = true;
             this.btnPrikazi.Click += new System.EventHandler(this.btnPrikazi_Click);
-            // 
-            // lstStudenti
-            // 
-            this.lstStudenti.FormattingEnabled = true;
-            this.lstStudenti.Location = new System.Drawing.Point(455, 44);
-            this.lstStudenti.Name = "lstStudenti";
-            this.lstStudenti.Size = new System.Drawing.Size(247, 173);
-            this.lstStudenti.TabIndex = 8;
             // 
             // comboBox1
             // 
@@ -156,7 +147,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.lstStudenti);
             this.Controls.Add(this.btnPrikazi);
             this.Controls.Add(this.btnSpremi);
             this.Controls.Add(this.txtPrezime);
@@ -180,7 +170,6 @@
         private System.Windows.Forms.TextBox txtPrezime;
         private System.Windows.Forms.Button btnSpremi;
         private System.Windows.Forms.Button btnPrikazi;
-        private System.Windows.Forms.ListBox lstStudenti;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label4;

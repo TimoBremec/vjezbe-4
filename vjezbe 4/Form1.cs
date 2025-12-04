@@ -41,19 +41,7 @@ namespace vjezbe_4
 
         private void btnPrikazi_Click(object sender, EventArgs e)
         {
-            string linija;
-            StreamReader sr = new StreamReader("studenti.txt",true);
-            linija = sr.ReadLine();
-            List<string> lstStr = new List<string>();
-            while (linija != null)
-            {
-                linija = linija.Replace("|", " ");
-                lstStr.Add(linija);
-                linija = sr.ReadLine();
-            }
-            lstStudenti.DataSource = lstStr;
-
-            sr.Close();
+           this.Close();
 
         }
 
